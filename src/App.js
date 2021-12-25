@@ -1,10 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import boardgamesList from './boardgames-list.json';
 
 function App() {
   return (
     <div>
-      test!
+        {boardgamesList.map((boardgame) => {
+          return <div key={boardgame.name}>{boardgame.name}</div>
+        })}
     </div>
   );
 }
