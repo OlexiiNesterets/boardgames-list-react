@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/boardgames-list-react/static/css/main.e6c13ad2.css",
-    "main.js": "/boardgames-list-react/static/js/main.680ed338.js",
+    "main.js": "/boardgames-list-react/static/js/main.7c1cc1aa.js",
     "static/js/787.1c6cd812.chunk.js": "/boardgames-list-react/static/js/787.1c6cd812.chunk.js",
     "index.html": "/boardgames-list-react/index.html",
+    "static/media/iconmonstr-arrow-19.svg": "/boardgames-list-react/static/media/iconmonstr-arrow-19.9e6e80f0e716dc7a5f7eafefb8612732.svg",
     "main.e6c13ad2.css.map": "/boardgames-list-react/static/css/main.e6c13ad2.css.map",
-    "main.680ed338.js.map": "/boardgames-list-react/static/js/main.680ed338.js.map",
+    "main.7c1cc1aa.js.map": "/boardgames-list-react/static/js/main.7c1cc1aa.js.map",
     "787.1c6cd812.chunk.js.map": "/boardgames-list-react/static/js/787.1c6cd812.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.680ed338.js"
+    "static/js/main.7c1cc1aa.js"
   ]
 }
