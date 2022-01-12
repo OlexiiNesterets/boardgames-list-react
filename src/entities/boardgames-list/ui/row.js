@@ -13,7 +13,7 @@ export const TableRow = ({ name, min, max, className }) => {
 const Row = styled.div`
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 15px;
 `;
 
 const ValueBox = styled.span`

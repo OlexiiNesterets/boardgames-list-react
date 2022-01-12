@@ -7,16 +7,16 @@ export const Arrow = ({ isAscending, ...p }) => {
 
 const SortArrow = styled(ArrowSvg).attrs(({ $isAscending }) => ({ 'data-ascending': $isAscending }))`
     position: absolute;
-    top: 2px;
-    right: -22px;
+    top: 3px;
+    right: -17px;
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 13px;
+    height: 13px;
     transform: rotate(90deg);
     fill: #ff141c;
     transition: 0.4s;
     &[data-ascending=true] {
-        top: 1px;
+        top: 2px;
         transform: rotate(-90deg);
         fill: #43db43;
     }
