@@ -1,0 +1,23 @@
+import styled from "styled-components";
+import { ReactComponent as ArrowSvg } from "../../assests/iconmonstr-arrow-19.svg";
+
+export const Arrow = ({ isAscending, ...p }) => {
+    return <SortArrow $isAscending={isAscending} {...p} />
+};
+
+const SortArrow = styled(ArrowSvg).attrs(({ $isAscending }) => ({ 'data-ascending': $isAscending }))`
+    position: absolute;
+    top: 2px;
+    right: -22px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+    fill: #ff141c;
+    transition: 0.4s;
+    &[data-ascending=true] {
+        top: 1px;
+        transform: rotate(-90deg);
+        fill: #43db43;
+    }
+`;
