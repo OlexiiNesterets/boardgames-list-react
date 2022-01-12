@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { BoardgameHeaderRow } from ".";
 
-export const BoardgameHeader = ({ header, sortArrow, activeHeader, setActiveHeader, setAscending, sortFn, className, ...props }) => {
+export const BoardgameHeader = ({ header, sortArrow, activeHeader, setActiveHeader, setAscending, isAscending, className, ...props }) => {
 
     const handleClick = () => {
         setActiveHeader?.(header);
@@ -11,7 +11,7 @@ export const BoardgameHeader = ({ header, sortArrow, activeHeader, setActiveHead
     return (
         <HeaderBox {...props} className={className}
             onClick={handleClick}>
-            <Name>{header.name} {sortArrow && <>{sortArrow}</>}</Name>
+            <Name $isActive={activeHeader.name === header.name} $isAscending={isAscending}>{header.name} {sortArrow && <>{sortArrow}</>}</Name>
         </HeaderBox>
     );
 }
@@ -31,6 +31,17 @@ const HeaderBox = styled.div`
     }
 `;
 
-const Name = styled.span`
+const Name = styled.span.attrs(({ $isActive, $isAscending }) => ({
+    'data-ascending': $isAscending,
+    'data-active': $isActive,
+}))`
     position: relative;
+
+    &[data-active=true][data-ascending=true] {
+        color: #43db43;
+    }
+
+    &[data-active=true][data-ascending=false] {
+        color: #ff141c;
+    }
 `;

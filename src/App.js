@@ -53,7 +53,8 @@ function App() {
               sortArrow={(activeHeader.name === header.name) && <Arrow isAscending={isAscending} />}
               activeHeader={activeHeader}
               setActiveHeader={setActiveHeader}
-              setAscending={setIsAscending} />
+              setAscending={setIsAscending}
+              isAscending={isAscending} />
           ))}
         </BoardgameHeaderRow>
         {sortedBoardgamesList.map(({ name, maxPlayers, minPlayers, searchName }) => {

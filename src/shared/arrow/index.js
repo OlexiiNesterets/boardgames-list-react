@@ -14,7 +14,8 @@ const SortArrow = styled(ArrowSvg).attrs(({ $isAscending }) => ({ 'data-ascendin
     height: 13px;
     transform: rotate(90deg);
     fill: #ff141c;
-    transition: 0.4s;
+    transition-property: transform;
+    transition-duration: 0.4s;
     &[data-ascending=true] {
         top: 2px;
         transform: rotate(-90deg);
