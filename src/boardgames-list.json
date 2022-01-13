@@ -68,5 +68,22 @@
     { "name": "Ticket to Ride: Nordic Countries", "searchName":"Ticket to Ride: Nordic Countries", "minPlayers": 2, "maxPlayers": 3 },
     { "name": "Takenoko", "searchName":"Takenoko", "minPlayers": 2, "maxPlayers": 4 },
     { "name": "Фонарики: Праздник урожая", "searchName":"Фонарики: Праздник урожая", "minPlayers": 2, "maxPlayers": 4 },
-    { "name": "Замки Бургундии", "searchName":"Замки Бургундии", "minPlayers": 2, "maxPlayers": 4 }
+    { "name": "Замки Бургундии", "searchName":"Замки Бургундии", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Hey, That's My Fish!", "searchName":"Hey, That's My Fish!", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Запретная пустыня", "searchName":"Запретная пустыня", "minPlayers": 2, "maxPlayers": 5 },
+    { "name": "Кольт Экспресс", "searchName":"Кольт Экспресс", "minPlayers": 5, "maxPlayers": 6 },
+    { "name": "Королевские Хроники", "searchName":"Королевские Хроники", "minPlayers": 2, "maxPlayers": 5 },
+    { "name": "Прорисунки", "searchName":"Прорисунки", "minPlayers": 4, "maxPlayers": 8 },
+    { "name": "Защитник короны", "searchName":"Защитник короны", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Маракайбо", "searchName":"Маракайбо", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Ямайка", "searchName":"Ямайка", "minPlayers": 5, "maxPlayers": 6 },
+    { "name": "Драфтозавры", "searchName":"Драфтозавры", "minPlayers": 3, "maxPlayers": 5 },
+    { "name": "Tiny Epic Dinosaurs", "searchName":"Tiny Epic Dinosaurs", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Декодер", "searchName":"Декодер", "minPlayers": 4, "maxPlayers": 8 },
+    { "name": "Codenames: Duet", "searchName":"Codenames: Duet", "minPlayers": 2, "maxPlayers": 2 },
+    { "name": "Мегаполіс", "searchName":"Мегаполіс", "minPlayers": 1, "maxPlayers": 2 },
+    { "name": "Saboteur (1,2)", "searchName":"Saboteur", "minPlayers": 4, "maxPlayers": 8 },
+    { "name": "Продано", "searchName":"Продано", "minPlayers": 3, "maxPlayers": 6 },
+    { "name": "Карты конфликта", "searchName":"Карты конфликта", "minPlayers": 4, "maxPlayers": 10 },
+    { "name": "Марш Муравьёв", "searchName":"Марш Муравьёв", "minPlayers": 2, "maxPlayers": 5 }
 ]
