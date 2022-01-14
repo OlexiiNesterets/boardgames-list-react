@@ -9,7 +9,7 @@ function App() {
 
   const headers = [{ name: 'Имя', id: 'name' }, { name: 'min', id: 'minPlayers' }, { name: 'max', id: 'maxPlayers' }];
 
-  const [boardgamesList, setBoardgamesList] = useState(() => getBoardgamelist());
+  const [boardgamesList, setBoardgamesList] = useState(() => getBoardgamelist().slice().sort(pipe(pick('name'), compare)));
   const [sortedBoardgamesList, setSortedBoardgamesList] = useState(boardgamesList);
   const [activeHeader, setActiveHeader] = useState(headers[0]);
   const [isAscending, setIsAscending] = useState(true);
