@@ -9,7 +9,7 @@ export const BoardgameRow = ({ name, min, max }) => {
 };
 
 const TableRowStyled = styled(TableRow)`
-    &:nth-child(even) {
+    &:nth-child(odd) {
         background: #ededed;
     }
 `;
