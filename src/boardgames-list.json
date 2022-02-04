@@ -83,5 +83,7 @@
     { "name": "Saboteur (1,2)", "searchName":"Saboteur", "minPlayers": 4, "maxPlayers": 8 },
     { "name": "Продано", "searchName":"Продано", "minPlayers": 3, "maxPlayers": 6 },
     { "name": "Карты конфликта", "searchName":"Карты конфликта", "minPlayers": 4, "maxPlayers": 10 },
-    { "name": "Марш Муравьёв", "searchName":"Марш Муравьёв", "minPlayers": 2, "maxPlayers": 5 }
+    { "name": "Марш Муравьёв", "searchName":"Марш Муравьёв", "minPlayers": 2, "maxPlayers": 5 },
+    { "name": "Istanbul: The Dice Game", "searchName":"Istanbul: The Dice Game", "minPlayers": 2, "maxPlayers": 4 },
+    { "name": "Сиггил", "searchName":"Сиггил", "minPlayers": 2, "maxPlayers": 4 }
 ]
