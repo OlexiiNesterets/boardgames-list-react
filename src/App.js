@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import styled from 'styled-components';
 import { getBoardgamelist } from './api/getBoardgamelist';
 import { BoardgameHeader, BoardgameHeaderRow, BoardgameRow } from './entities';
@@ -9,14 +9,14 @@ function App() {
 
   const headers = [{ name: 'Имя', id: 'name' }, { name: 'min', id: 'minPlayers' }, { name: 'max', id: 'maxPlayers' }];
 
-  const [boardgamesList, setBoardgamesList] = useState(() => getBoardgamelist().slice().sort(pipe(pick('name'), compare)));
+  const boardgamesList = useRef(getBoardgamelist().slice().sort(pipe(pick('name'), compare))).current;
+
   const [sortedBoardgamesList, setSortedBoardgamesList] = useState(boardgamesList);
   const [activeHeader, setActiveHeader] = useState(headers[0]);
   const [isAscending, setIsAscending] = useState(true);
   const [filterNumber, setFilterNumber] = useState('');
 
   useEffect(() => {
-    console.log({ filterNumber });
     setSortedBoardgamesList(boardgamesList
       .slice()
       .filter(fitRange(filterNumber, 'minPlayers', 'maxPlayers'))
